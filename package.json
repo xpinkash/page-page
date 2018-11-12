@@ -1,0 +1,25 @@
+{
+  "name": "sample01",
+  "version": "1.0.0",
+  "engines" : {
+    "node": "8.12.0",
+    "npm": "6.4.1"
+  },
+  "description": "sample",
+  "author": "TCAP",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "heroku-postbuild": "npm run build"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0",
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
